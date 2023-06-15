@@ -1,0 +1,151 @@
+.stickyColumn {
+    height: 40vw;
+    overflow: auto;
+    position: sticky;
+    top: 80px;
+    align-self: flex-start;
+}
+
+.drag {
+    cursor: grab;
+}
+
+.stickyHeader {
+    position: sticky;
+    top: 0px;
+    align-self: flex-start;
+    background: white;
+}
+
+.lyricsDisplay {
+    font-size: 0.8vw;
+}
+
+.extraInfoDisplay {
+    font-size: 0.9vw;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+.nopadding {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.tabRow {
+    padding-bottom: 2vw;
+    margin: 0px;
+}
+
+.tabLabel {
+    width: 2vw;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 0.7vw;
+    height: 1.8vw;
+    cursor: default;
+    color: black;
+    text-align: center;
+}
+
+.tabInput {
+    border-radius: 0;
+    text-align: center;
+    font-size: 0.7vw;
+    height: 1.8vw;
+}
+
+.grid {
+    width: 2vw;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 0.7vw;
+    height: 1.8vw;
+    cursor: pointer;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.grid:hover {
+    border: 2px solid black;
+    background: lightgrey;
+    color: black;
+}
+
+.grid:disabled {
+    width: 2vw;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 0.7vw;
+    height: 1.8vw;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.gridRhythm {
+    height: 3.5vw;
+    width: 2vw;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 1vw;
+    cursor: pointer;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.gridRhythm:hover {
+    border: 2px solid black;
+    background: lightgrey;
+    color: black;
+}
+
+.gridRhythm:disabled {
+    height: 3.5vw;
+    width: 2vw;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 1vw;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.chordComplement {
+    font-size: 0.4vw;
+}
+
+.chordAssigned {
+    font-size: 0.7vw;
+    height: 1.8vw;
+    width: 2vw;
+}
+
+.rhythmCol {
+    height: 3.5vw;
+    width: 2vw;
+}
+
+.rhythmButton {
+    height: 3.5vw;
+    width: 2vw;
+}
+
+.rhythmImage {
+    height: 2vw;
+    width: 0.6vw;
+}

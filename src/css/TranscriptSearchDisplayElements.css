@@ -1,0 +1,154 @@
+.songLink {
+    color: black;
+    cursor: pointer;
+}
+
+.songLink:hover {
+    color: grey;
+}
+
+.btnSearch {
+    border-radius:7px;
+    border:2px solid darkgray;
+    display:inline-block;
+    cursor:pointer;
+    color:whitesmoke;
+    font-family:Arial;
+    font-size:14px;
+    font-weight:bold;
+    padding:12px 16px;
+    text-decoration:none;
+}
+
+.btnSearch:hover {
+    background-color: grey;
+    border-color:darkgray;
+    color:whitesmoke;
+}
+
+.mainRow {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.mainColumn {
+    min-width: 1180px;
+}
+
+.stickyColumnDisplay {
+    margin-left: 2vw;
+    min-width: 120px;
+    max-width: 160px;
+    height: 40vw;
+    overflow: auto;
+    position: sticky;
+    top: 80px;
+    align-self: flex-start;
+}
+
+.stickyHeaderDisplay {
+    position: sticky;
+    top: 0px;
+    align-self: flex-start;
+    background: white;
+}
+
+.chordImage {
+    width: 5.5vw;
+    height: 8vw;
+}
+
+/*** -- BUTTONS TOOLS -- ***/
+
+.btnTools {
+    height: 30px;
+    max-width: 150px;
+    min-width: 110px;
+}
+
+.btnToolsMedium {
+    height: 30px;
+    max-width: 100px;
+    min-width: 60px;
+}
+
+.btnToolsSmall {
+    height: 30px;
+    max-width: 25px;
+    min-width: 15px;
+}
+
+.btnToolsSmall {
+    height: 30px;
+    max-width: 25px;
+    min-width: 15px;
+}
+
+.btnToolsMediumFont {
+    height: 50px;
+    max-width: 100px;
+    min-width: 60px;
+}
+
+.btnToolsSmallFont {
+    height: 50px;
+    max-width: 25px;
+    min-width: 15px;
+}
+
+.arrow {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #202020;
+    border-right: 2px solid #202020;
+}
+
+.arrow-right {
+    transform: rotate(45deg);
+}
+
+.arrow-left {
+    transform: rotate(-135deg);
+}
+
+/*** -- FONTS -- ***/
+
+.fontAnton {
+    font-family: 'Anton', sans-serif;
+}
+.fontDancingScript {
+    font-family: 'Dancing Script', cursive;
+}
+.fontMontserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.fontPangolin {
+    font-family: 'Pangolin', cursive;
+}
+.fontPermanentMarker {
+    font-family: 'Permanent Marker', cursive;
+}
+.fontRoboto {
+    font-family: 'Roboto', sans-serif;
+}
+.fontSmokum {
+    font-family: 'Smokum', cursive;
+}
+.smallFont {
+    font-size: 10px;
+}
+.mediumFont {
+    font-size: 15px;
+}
+.bigFont {
+    font-size: 20px;
+}
+
+/*** -- RATING -- ***/
+
+.inputRating {
+    display: none;
+}
+
+
